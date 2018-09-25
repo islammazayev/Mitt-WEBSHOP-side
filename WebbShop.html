@@ -1,0 +1,306 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="WebbShop.css">
+<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body id="body">
+    <header>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <a class="navbar-brand" href="#">Camping.se</a>
+            </div>
+            <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                <li><a href="#">Page 1-1</a></li>
+                <li><a href="#">Page 1-2</a></li>
+                <li><a href="#">Page 1-3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Page 2</a></li>
+        </ul>
+            <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">
+                <button onclick="document.getElementById('id01').style.display='block'"style= "wigth:auto;">Rigestrera dig</button>
+                <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none'" title="Close Model">&times;</span>
+                    <form class="modal-content" action="/action_page.php">
+                        <div class="containerReg">
+                            <hr>
+                            <label for="email"><b>E-post</b></label>
+                            <input type="text" placeholder="Enter e-post" name="e-post" required>
+
+                            <label for="password"><b>Lösenord</b></label>
+                            <input type="password" placeholder="Enter lösenord" name="password" required>
+
+                            ssddsdasdsa
+                        </div>
+                    </form>
+                </div>
+                <span class="glyphicon glyphicon-user"></span> Rigestrera dig</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <!-- <li id="Sök"><a itemprop="url" href="Sök">
+                <i class="search"></i>
+                <span "glyphicon glyphicon-user">Sök</span></a></li>
+            </li> -->
+            <li id="sök" style="margin-top: 10px">
+                <button type="button" class="btn btn-default">
+                <li id="Sök"><a itemprop="url" href="Sök">
+                <i class="search"></i>
+                <!-- <span "glyphicon glyphicon-user">Sök</span></a></li> -->
+                <span class="glyphicon glyphicon-search"></span> Search
+                </button>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <div class="row">
+        <div class="col-md-12">
+        <div class="container1">
+                <!-- <h2>Carousel Example</h2> -->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                
+                    <div class="item active">
+                        <img src="camping1-hike-couple_Doug Olson.jpg" alt="Los Angeles" style="width:100%; height: 800px;">
+                        <div class="carousel-caption">
+                        <h3></h3>
+                        <p>Camp is always so much fun!</p>
+                        </div>
+                    </div>
+                
+                    <div class="item">
+                        <img src="cTält3-1-1200x675.jpg" alt="Chicago" style="width:100%; height: 800px;">
+                        <div class="carousel-caption">
+                        <h3></h3>
+                        <p>Thank you, Camp!</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <img src="Camping2_teddy-kelley-194162-unsplash.jpg" alt="New York" style="width:100%; height: 800px;">
+                        <div class="carousel-caption">
+                        <h3></h3>
+                        <p>We love the Camp!</p>
+                        </div>
+                    </div>
+                
+                    </div>
+                
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="containerLeft">
+                <img src="slider2.jpg" class="img-rounded" alt="camping" width="100%" height="500px">
+            </div>
+        </div>
+            <div class="col-md-6">
+                <div class="containerRight">
+                    <img src="sdepositphotos_164795870-stock-photo-rear-view-of-four-tourists.jpg" class="img-rounded" alt="camping2" width="100%" height="500px">
+                </div>
+            </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="container1L">
+                <img src="tält 1504093.jpg" class="img-rounded" alt="tält" width="100%" height="400px">
+                <div class="Tält"><a href="" title="Tält"> <h1> Tält</h1></a></div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="container2C">
+                <img src="kooook604719.jpg" class="img-rounded" alt="kok" width="100%" height="400px">
+                <div class="Kok"><a href="" title="Tält"> <h1> Kok</h1></a></div>
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="container1R">
+                <img src="ssov3551610.jpg" class="img-rounded" alt="sov" width="100%" height="400px">
+                <div class="SovSäck"><a href="" title="Tält"> <h1> SovSäckar</h1></a></div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="containerSale">
+                <!-- <img src="Black.jpg" alt="blackSale" width="100%" height="600px" > -->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                
+                    <div class="item active">
+
+                            <div class="containerA">
+                            <img id="a" src="Kok1.jpg" class="img-rounded"  alt="Los Angeles" style="width:400px; height: 400px;">
+                            <div class="a"> <a href="" title="kok">Kok</a> </div>
+                            </div>
+
+                            <div class="containerB">
+                                <img id="b" src="sovsäck1.jpg" class="img-rounded" alt="Chicago" style="width:400px; height: 400px;">
+                                <div class="b"><a href="" title="sov">SovSäck</a> </div>
+                            </div>
+
+                            <div class="containerQ">
+                                <img id="q" src="tält860315.jpg" class="img-rounded" alt="New York" style="width:400px; height: 400px;">
+                                <div class="q"><a href="" title="tält">Tält</a> </div>
+                            </div>
+
+                            <div class="containerC">
+                                <img id="c" src="Kok2.jpg" class="img-rounded" alt="New York" style="width:400px; height: 400px;">
+                                <div class="c"><a href="" title="Kok">Kok</a> </div>
+                            </div>
+                            <div class="carousel-caption">
+                        </div>
+                    
+                    <!-- <h1 class="VeckansREA">Veckans REA</h1> -->
+                </div>
+                
+                    <div class="item">
+                        <div class="containerD">
+                            <img id="d" src="tältrea1.jpg" class="img-rounded" alt="New York" style="width:400px; height: 400px;">
+                            <div class="d"><a href="" title="tält">Tält</a> </div>
+                        </div>
+
+                        <div class="containerE">
+                            <img id="e" src="kook.jpg" class="img-rounded" alt="New York" style="width:400px; height: 400px;">
+                            <div class="e"><a href="" title="Kok">Kok</a> </div>
+                        </div>
+
+                        <div class="containerW">
+                        <img id="w" src="sov1151756.jpg" class="img-rounded" alt="New York" style="width:400px; height: 400px;">
+                        <div class="w"><a href="" title="SovSäck">SovSäck</a> </div>
+                        </div>
+
+                        <div class="containerF">
+                        <img id="f" src="tältrea2.jpg" class="img-rounded" alt="New York" style="width:400px; height: 400px;">
+                        <div class="f"><a href="" title="tält">Tält</a> </div>
+                        </div>
+                        <div class="carousel-caption">
+                    </div>
+                    <!-- <h1 class="VeckansREA">Veckans REA</h1> -->
+                    </div>
+                    
+                    <!-- <div class="item">
+                        <img id="c" src="Camping2_teddy-kelley-194162-unsplash.jpg" alt="New York" style="width:500px; height: 500px;">
+                        <div class="carousel-caption">
+                        <h3></h3>
+                        <p>We love the Camp!</p>
+                        </div>
+                    </div> -->
+                
+                    </div>
+                
+                    <!-- Left and right controls -->
+                    <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-7">
+            <div class="containerContakt">
+            <div class="containerCont">
+                <form action="/action_page.php">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname">First Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Last Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="country">Country</label>
+                        </div>
+                        <div class="col-75">
+                            <select id="country" name="country">
+                                <option value="australia">Sweden</option>
+                                <option value="canada">Canada</option>
+                                <option value="usa">USA</option>
+                            </select>
+                        </div>
+                        </div>
+                    <!-- </div> -->
+                    <div class="row">
+                    <div class="col-25">
+                    <label for="subject">Subject</label>
+                    </div>
+                    <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="containerAbout">
+                <img id="Contact1" src="Black.jpg" class="img-rounded" alt="Black" width="600px" height="470px">
+                <div class="Centertext"><h1>About</h1><p>Vi jobbar mycket med att vara kunder ska ha en bra camping och allt som behöver dem för det.Vi har väldigt bra erfarenhet och säljar redan från 1970 år.</p> <h1>CONTACT</h1><p>e-post : islam.mazayev@gmail.com</p><p>telefon : +46 729 25 24 29</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="containerFooter">
+                <footer>Islam Mazayev</footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
